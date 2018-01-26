@@ -33,18 +33,28 @@
     </nav>
 
     <div class="topnav" id="myTopnav">
-      <a href="#home" class="active">Productos</a>
+        <a class=" dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Productos
+        </a>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="menu-products">
+          <a class="dropdown-item" href="#">Camisetas Polo</a>
+          <a class="dropdown-item" href="#">Camisas Manga larga</a>
+          <a class="dropdown-item" href="#">Jeans</a>
+        </div>
       <a href="#news">Noticias</a>
       <a href="#contact">Preguntas frecuentes</a>
       <a href="#about">Carrito de compras <i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
       <a href="#about">Mi perfil</a>
-      <a href="#about">Administrador</a>
+      <a href="#about" class="active">Administrador</a>
     </div>
+
 
     <div style="padding-left:16px">
       <h2>Responsive Topnav Example</h2>
       <p>Resize the browser window to see how it works.</p>
     </div>
+
+
 
     <script>
     function myFunction() {

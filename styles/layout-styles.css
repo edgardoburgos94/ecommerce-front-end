@@ -138,7 +138,6 @@ footer a:hover{
 }
 
 .topnav {
-  overflow: hidden;
   min-height: 65px;
   background-color: #000;
   text-align: center;
@@ -164,6 +163,33 @@ footer a:hover{
 
 }
 
+#dropdownMenuButton {
+  background-color: #000;
+  color: white;
+}
+
+#dropdownMenuButton:hover {
+  background-color: #EA5B0C;
+}
+
+#menu-products {
+  background-color: #DADADA;
+  border: 1px solid #706F6F;
+  padding: 0px;
+  margin: 0px;
+}
+
+#menu-products a{
+  color: #706F6F;
+  border-bottom: 1px solid #706F6F;
+}
+
+#menu-products a:hover{
+  background-color: #9D9D9C;
+  color: white;
+  font-style: italic;
+}
+
 .active {
   background-color: #F28321;
   color: white;
@@ -180,6 +206,25 @@ footer a:hover{
 
 .topnav .icon {
   display: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
 }
 
 @media screen and (max-width: 900px) {
