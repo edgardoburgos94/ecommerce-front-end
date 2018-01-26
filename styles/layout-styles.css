@@ -224,10 +224,6 @@ footer a:hover{
   nav {
     height: 175px;
   }
-
-}
-
-@media screen and (max-width: 900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
@@ -239,3 +235,35 @@ footer a:hover{
     display: block;
     text-align: left;
   }
+
+  @media screen and (max-width: 600px) {
+    nav {
+      height: 265px;
+    }
+    .logo {
+      width: 345px;
+    }
+    .search {
+      width: 100%;
+      max-width: 550px;
+    }
+    .login-signin {
+      width: 100%;
+      text-align: left;
+    }
+    .login-signin h6 {
+      margin-left: 1%;
+      margin-right: 1%;
+      font-size: 11.2px;
+    }
+    .login-signin a {
+      margin-left: 0px;
+      margin-right: 0px;
+      font-size: 13px;
+    }
+    #hamburger {
+      margin-left: 0px;
+      margin-right: 0px;
+      padding: opx;
+    }
+}
