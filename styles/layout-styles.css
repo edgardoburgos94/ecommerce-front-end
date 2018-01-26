@@ -4,14 +4,14 @@ body {
 }
 
 nav {
-  background: linear-gradient(#F29100 95% , #706F6F);
+  background: linear-gradient(#F29100 98% , #706F6F);
   min-height: 125px;
 }
 .nav-top {
   width: 100%;
   min-height: 100px;
   text-align: center;
-  border: 1px solid  #F29100;
+  border-bottom: : 1px solid  #706F6F;
 }
 
 .logo {
@@ -150,7 +150,7 @@ footer a:hover{
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 24px 26px 0px 26px;
+  padding: 20px 26px 0px 26px;
   text-decoration: none;
   font-size: 17px;
 }
