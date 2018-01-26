@@ -138,13 +138,13 @@ footer a:hover{
 
 .topnav {
   overflow: hidden;
-  min-height: 75px;
+  min-height: 65px;
   background-color: #000;
   text-align: center;
 }
 
 .topnav a {
-  height: 75px;
+  height: 65px;
   margin: auto;
   margin: 0px -3px 0px -2px;
   display: inline-block;
@@ -156,7 +156,7 @@ footer a:hover{
 }
 
 .topnav a:hover {
-  background-color: #F28321;
+  background-color: #EA5B0C;
   color: white;
 
   text-decoration: none;
@@ -164,7 +164,7 @@ footer a:hover{
 }
 
 .active {
-  background-color: #EA5B0C;
+  background-color: #F28321;
   color: white;
 }
 
