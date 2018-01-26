@@ -175,18 +175,22 @@ footer a:hover{
 #menu-products {
   background-color: #DADADA;
   border: 1px solid #706F6F;
+  width: 230px;
   padding: 0px;
   margin: 0px;
 }
 
 #menu-products a{
   color: #706F6F;
+  margin-left: 0px;
   border-bottom: 1px solid #706F6F;
 }
 
 #menu-products a:hover{
   background-color: #9D9D9C;
   color: white;
+  border-right: 1px solid #706F6F;
+
   font-style: italic;
 }
 
