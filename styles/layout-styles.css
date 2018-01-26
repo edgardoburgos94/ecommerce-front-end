@@ -31,6 +31,7 @@ nav {
 
 .search {
   width: 30%;
+  min-width: 290px;
   max-width: 350px;
   margin: auto;
   margin-top: 20px;
@@ -79,21 +80,21 @@ nav {
   height: 75px;
   border-bottom-left-radius: 15px;
   display:inline-block;
-  padding: 10px;
+  padding: 1%;
   color: white;
   text-align: left;
   /* border: 1px solid blue; */
 }
 
 .login-signin h6 {
-  margin-left: 30px;
+  margin-left: 9%;
 }
 
 .login-signin a {
   background: #EA5B0C;
   border-radius: 10px;
   padding: 0px 12px 0px 12px;
-  margin: 0px 7px 0px 7px;
+  margin: 0px 1% 0px 1%;
   text-align: center;
   max-height: 100%;
   color: white;
@@ -150,7 +151,7 @@ footer a:hover{
   display: inline-block;
   color: white;
   text-align: center;
-  padding: 20px 26px 0px 26px;
+  padding: 20px 2% 0px 2%;
   text-decoration: none;
   font-size: 17px;
 }
@@ -168,6 +169,10 @@ footer a:hover{
   color: white;
 }
 
+#hamburger {
+  display: none;
+}
+
 #hamburger:hover {
   background-color: #000;
 
@@ -177,18 +182,52 @@ footer a:hover{
   display: none;
 }
 
-@media screen and (max-width: 1160px) {
-  .topnav a:not(.active) {display: none;}
+@media screen and (max-width: 900px) {
+  .topnav {
+    min-height: 0px;
+  }
+  .topnav a {display: none;}
   .active {
+    float: left;
+    width: 100%;
     background: #000;
   }
-  .topnav a.icon {
+  #hamburger {
     display: inline-block;
     float: right;
+    background-color: #F28321;
+    font-style: normal;
   }
+  #hamburger:hover {
+    background-color: #F28321;
+  }
+  .login-signin {
+    float: left;
+    width: 100%;
+    max-width: 900px;
+    text-align: center;
+    padding-top: 15px;
+    height: 50px;
+  }
+  .login-signin h6 {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .search {
+    width: 45%;
+  }
+  .logo {
+    width: 45%
+  }
+
+
+  nav {
+    height: 175px;
+  }
+
 }
 
-@media screen and (max-width: 1160px) {
+@media screen and (max-width: 900px) {
   .topnav.responsive {position: relative;}
   .topnav.responsive .icon {
     position: absolute;
