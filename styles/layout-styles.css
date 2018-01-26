@@ -4,18 +4,19 @@ body {
 }
 
 nav {
-  background-color: #F29100;
+  background: linear-gradient(#F29100 95% , #706F6F);
   min-height: 125px;
 }
 .nav-top {
   width: 100%;
-  height: 100px;
+  min-height: 100px;
   text-align: center;
   border: 1px solid  #F29100;
 }
 
 .logo {
-  width: 355px;
+  width: 30%;
+  max-width: 355px;
   height: 97%;
   float: left;
   margin-top: 0px;
@@ -29,7 +30,8 @@ nav {
 }
 
 .search {
-  width: 350px;
+  width: 30%;
+  max-width: 350px;
   margin: auto;
   margin-top: 20px;
   display:inline-block;
@@ -38,7 +40,7 @@ nav {
 
 .search input {
   border: none;
-  width: 310px;
+  width: 85%;
   padding: 10px;
   margin: -5px;
 }
@@ -72,7 +74,8 @@ nav {
   background: #F28321;
   float:right;
   margin-top: 25px;
-  width: 300px;
+  width: 30%;
+  max-width: 300px;
   height: 75px;
   border-bottom-left-radius: 15px;
   display:inline-block;
@@ -143,7 +146,7 @@ footer a:hover{
 .topnav a {
   height: 75px;
   margin: auto;
-  margin: 0px -2px 0px -2px;
+  margin: 0px -3px 0px -2px;
   display: inline-block;
   color: white;
   text-align: center;
